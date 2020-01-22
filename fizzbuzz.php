@@ -4,7 +4,6 @@
  * Affiche un résultat en fonction de la divisibilité du chiffre reçu
  * 
  * @param int $n
- * @return null
  */
 function fizzBuzz($n)
 {
@@ -25,7 +24,6 @@ function fizzBuzz($n)
  * 2ème approche
  * 
  * @param int $n
- * @return null
  */
 function fizzBuzzV2($n)
 {
