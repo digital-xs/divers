@@ -5,7 +5,7 @@ pipeline {
       agent any
       steps {
         echo 'hello'
-        sh 'sh "--coverage-html \'reports/coverage\' --coverage-clover \'reports/coverage/coverage.xml\' test/"'
+        sh 'mvn clean clover:setup test clover:aggregate clover:clover'
       }
     }
 
